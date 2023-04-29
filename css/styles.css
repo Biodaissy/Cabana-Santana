@@ -1,0 +1,42 @@
+.galeria-imagen {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.imagen-habitacion {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.browser {
+  background-color: #c5a498;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.li1 {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista1 {
+  margin-left: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
