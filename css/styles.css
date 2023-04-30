@@ -40,3 +40,104 @@ nav {
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* boton de seguirnos */
+
+.compartir {
+  position: relative;
+  width: 680px;
+  left: 60%;
+  margin-left: 300px;
+  top: 50%;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+.compartir span {
+  width: 200px;
+  line-height: 80px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 40%;
+  margin-left: -200px;
+  opacity: 1;
+  transition: opacity 0.4 ease-in-out;
+  pointer-events: none;
+  color: #ffffff;
+}
+
+container {
+  font-size: 0;
+}
+
+.compartir {
+  position: fixed;
+  bottom: -1400px;
+  right: -10;
+  transform: scale(0.8);
+}
+
+.compartir a {
+  line-height: 80px;
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  background: linear-gradient(180deg, #e3db47, #898912);
+  color: #78831b;
+  opacity: 1;
+  transition: all 0.6s ease-in-out;
+  margin: 0 -10px;
+  box-shadow: 10px 10px 15px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.compartir a:nth-child(1) {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 40px;
+  margin-left: 0;
+}
+
+.compartir a:nth-child(1):hover {
+  background-color: #ea4335;
+}
+
+.compartir a:nth-child(2):hover {
+  background-color: #050608;
+}
+
+.compartir a:nth-child(3):hover {
+  background-color: #b42272;
+}
+
+.compartir a:nth-child(4):hover {
+  background-color: #3dd535;
+}
+
+.compartir a:nth-child(4) {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 20px;
+  margin-right: 0;
+}
+
+.compartir:hover span,
+.compartir,
+:hover span {
+  opacity: 1;
+}
+
+.compartir:hover a {
+  margin: 10px 5px;
+  color: #1b1801;
+  font-size: 28px;
+  border-radius: 50%;
+  background: #ffffff15;
+  box-shadow: 0 10px 25px rgba(36, 48, 212, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.compartir:hover a:hover {
+  color: #0d0d0d;
+}
