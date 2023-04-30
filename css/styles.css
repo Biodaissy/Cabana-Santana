@@ -49,7 +49,7 @@ font-family: 'Poppins', sans-serif;*/
   width: 10%;
   flex-grow: 1;
   border: none;
-  border-top: 2px solid #ebc804;
+  border-top: 2px solid #ebb104;
 }
 
 .frase-3 {
@@ -66,7 +66,28 @@ font-family: 'Poppins', sans-serif;*/
 .lista2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  font-size: 12pt;
+}
+
+.reserva-2-btn {
+  background-color: #ebb104;
+  border-radius: 15pt;
+  border: none;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
   font-size: 15pt;
+  cursor: pointer;
+}
+
+.reserva-2-btn:hover {
+  background-color: #dda705;
+  color: white;
+}
+
+.galeria {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22pt;
 }
 
 .galeria-imagen {
