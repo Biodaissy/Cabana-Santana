@@ -100,24 +100,28 @@ nav {
 /* boton de seguirnos */
 
 .compartir {
-  position: relative;
-  width: 680px;
-  left: 63%;
-  margin-left: 300px;
+  position: fixed;
+  width: -200px;
+  right: 10%;
+  margin-right: -30px;
   top: 50%;
-  margin-top: 20px;
-  border-radius: 100px;
+  margin-top: 200px;
+  border-radius: 50px;
+  bottom: 40px;
+  right: 30px;
+  transform: scale(0.7);
 }
 
 .compartir span {
   width: 200px;
   line-height: 80px;
   display: inline-block;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
   position: absolute;
-  left: 36.5%;
+  left: 170%;
   margin-left: -200px;
   opacity: 1;
   transition: opacity 0.4 ease-in-out;
@@ -125,15 +129,8 @@ nav {
   color: #ffffff;
 }
 
-container {
+.icons {
   font-size: 0;
-}
-
-.compartir {
-  position: fixed;
-  bottom: -700px;
-  right: -10;
-  transform: scale(0.6);
 }
 
 .compartir a {
@@ -141,7 +138,7 @@ container {
   width: 80px;
   text-align: center;
   display: inline-block;
-  background: linear-gradient(180deg, #e3db47, #898912);
+  background: linear-gradient(180deg, #a67035, #a1741a, #b8a057);
   color: #78831b;
   opacity: 1;
   transition: all 0.6s ease-in-out;
@@ -156,11 +153,11 @@ container {
 }
 
 .compartir a:nth-child(1):hover {
-  background-color: #b42272;
+  background: linear-gradient(150deg, #ffc300, #dd2a7b, #6222b1);
 }
 
 .compartir a:nth-child(2):hover {
-  background-color: #3dd535;
+  background-color: #25d366;
 }
 
 .compartir a:nth-child(2) {
@@ -176,7 +173,7 @@ container {
 }
 
 .compartir:hover a {
-  margin: 10px 5px;
+  margin: 1px 8px;
   color: #1b1801;
   font-size: 28px;
   border-radius: 50%;
@@ -187,5 +184,5 @@ container {
 }
 
 .compartir:hover a:hover {
-  color: #0d0d0d;
+  color: #ffffff;
 }
