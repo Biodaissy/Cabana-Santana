@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Poppins:wght@400;600&display=swap");
 /*
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Open Sans', sans-serif;
@@ -19,13 +19,14 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 .reserva-btn {
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 238);
   border-radius: 15pt;
   border: none;
   padding: 15px;
   font-family: "Poppins", sans-serif;
   color: rgb(165, 163, 163);
   font-size: 15pt;
+  cursor: pointer;
 }
 
 .reserva-btn:hover {
@@ -44,12 +45,27 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 .separador {
+  display: flex;
+  width: 10%;
+  flex-grow: 1;
   border: none;
-  background-color: bisque;
+  border-top: 2px solid #ebc804;
 }
 
 .frase-3 {
   font-family: "Open Sans", sans-serif;
+  font-size: 15pt;
+  font-weight: 300;
+}
+
+.habitacion {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25pt;
+}
+
+.lista2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-size: 15pt;
 }
 
@@ -66,7 +82,7 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 .browser {
-  background-color: #c5a498;
+  background-color: rgb(255, 255, 238);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   padding: 10px;
 }
