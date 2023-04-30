@@ -102,7 +102,7 @@ nav {
 .compartir {
   position: relative;
   width: 680px;
-  left: 60%;
+  left: 63%;
   margin-left: 300px;
   top: 50%;
   margin-top: 20px;
@@ -117,7 +117,7 @@ nav {
   font-size: 24px;
   text-transform: uppercase;
   position: absolute;
-  left: 40%;
+  left: 36.5%;
   margin-left: -200px;
   opacity: 1;
   transition: opacity 0.4 ease-in-out;
@@ -131,9 +131,9 @@ container {
 
 .compartir {
   position: fixed;
-  bottom: -1400px;
+  bottom: -700px;
   right: -10;
-  transform: scale(0.8);
+  transform: scale(0.6);
 }
 
 .compartir a {
@@ -150,30 +150,22 @@ container {
 }
 
 .compartir a:nth-child(1) {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 40px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
   margin-left: 0;
 }
 
 .compartir a:nth-child(1):hover {
-  background-color: #ea4335;
-}
-
-.compartir a:nth-child(2):hover {
-  background-color: #050608;
-}
-
-.compartir a:nth-child(3):hover {
   background-color: #b42272;
 }
 
-.compartir a:nth-child(4):hover {
+.compartir a:nth-child(2):hover {
   background-color: #3dd535;
 }
 
-.compartir a:nth-child(4) {
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 20px;
+.compartir a:nth-child(2) {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   margin-right: 0;
 }
 
